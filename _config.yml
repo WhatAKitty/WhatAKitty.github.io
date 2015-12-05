@@ -5,7 +5,7 @@ description: "一路走一路看"
 baseurl: ""
 url: "http://xuqiang.me"
 title_description: "一路走一路看，人生的道路上有许多美妙的风景。"
-title_image: "http://v1.qzone.cc/avatar/201512/02/20/40/565ee6d071e29733.jpg!200x200.jpg"
+title_image: "/assets/gravatar.jpg"
 google_analytics: "UA-67857103-1"
 disqus_account: yvoloshin
 github_repository: https://github.com/WhatAKitty/
