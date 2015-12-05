@@ -89,7 +89,6 @@ comments: true
       {% endif %}
 
       <div class="content-panel related clearfix">
-        {% if site.related_posts %}
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
           <a href="{{ site.baseurl }}{{ post.url }}">更 多</a>
@@ -106,7 +105,6 @@ comments: true
             <a href="{{ site.baseurl }}{{ post.url }}">继续阅读</a>
           </div>
         {% endfor %}
-        {% endif %}
         <hr />
         <div class="previous previous-next">
           {% if page.previous %}
