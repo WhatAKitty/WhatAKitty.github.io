@@ -7,7 +7,6 @@ url: "http://xuqiang.me"
 title_description: "一路走一路看，人生的道路上有许多美妙的风景。"
 title_image: "/assets/gravatar.jpg"
 google_analytics:
-enable_cnzz_analytics: true 
 disqus_account:
 duoshuo_account: whatakitty
 github_repository: https://github.com/WhatAKitty/
@@ -25,7 +24,7 @@ sina_weibo_link: http://weibo.com/2694057441/profile?topnav=1&wvr=6
 
 # Footer
 footer_left: "Template modified with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/Dear46673688\">Dear君临</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/WhatAKitty/WhatAKitty.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/WhatAKitty/WhatAKitty.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>&nbsp;|&nbsp;<script src="http://s4.cnzz.com/stat.php?id=1256913103&web_id=1256913103" language="JavaScript"></script>"
 
 # Build settings
 markdown: redcarpet
