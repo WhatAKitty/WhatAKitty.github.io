@@ -87,6 +87,13 @@ comments: true
         </div>
       </div>
       {% endif %}
+      {% if site.duoshuo_account %}
+      <div class="content-panel comments">
+        <!-- 多说评论框 start -->
+        <div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.baseurl }}{{ page.url }}"></div>
+        <!-- 多说评论框 end -->
+      </div>
+      {% endif %}
 
       <div class="content-panel related clearfix">
         {% if site.related_posts and site.related_posts.size > 0 %}
@@ -146,4 +153,16 @@ var disqus_shortname = "{{ site.disqus_account }}"; // required: replace example
  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 })(); 
 </script>
+ {% endif %}
+ {% if site.duoshuo_account %}
+ <script type="text/javascript">
+ var duoshuoQuery = {short_name:"{{ site.disqus_account }}"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+ </script>
  {% endif %}
