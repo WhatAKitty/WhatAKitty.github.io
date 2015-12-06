@@ -89,6 +89,7 @@ comments: true
       {% endif %}
 
       <div class="content-panel related clearfix">
+        {% if site.related_posts and site.related_posts.size > 0 %}
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
           <a href="{{ site.baseurl }}{{ post.url }}">更 多</a>
@@ -105,13 +106,14 @@ comments: true
             <a href="{{ site.baseurl }}{{ post.url }}">继续阅读</a>
           </div>
         {% endfor %}
+        {% endif %}
         <hr />
         <div class="previous previous-next">
           {% if page.previous %}
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Published {{ page.previous.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">发布于 {{ page.previous.date | date: "%B %-d, %Y" }}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -119,7 +121,7 @@ comments: true
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Published {{ page.next.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">发布于 {{ page.next.date | date: "%B %-d, %Y" }}</p>
           {% endif %}
         </div>
       </div>
