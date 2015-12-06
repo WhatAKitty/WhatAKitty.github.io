@@ -6,7 +6,8 @@ baseurl: ""
 url: "http://xuqiang.me"
 title_description: "一路走一路看，人生的道路上有许多美妙的风景。"
 title_image: "/assets/gravatar.jpg"
-google_analytics: 
+google_analytics:
+enable_cnzz_analytics: true 
 disqus_account:
 duoshuo_account: whatakitty
 github_repository: https://github.com/WhatAKitty/
@@ -16,14 +17,15 @@ post_limit: 5
 # Social usernames/URLs
 twitter_username: Dear46673688
 github_username: WhatAKitty
+sina_username: 本人dddd牛仔
 linkedin_link: 
 google_plus_link: 
 stackoverflow_link: http://stackoverflow.com/users/3165573/whitewater
 sina_weibo_link: http://weibo.com/2694057441/profile?topnav=1&wvr=6
 
 # Footer
-footer_left: "Template made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/Dear46673688\">Dear君临</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/WhatAKitty\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Template modified with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/Dear46673688\">Dear君临</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/WhatAKitty/WhatAKitty.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: redcarpet
