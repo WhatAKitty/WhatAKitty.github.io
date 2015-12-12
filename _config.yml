@@ -1,6 +1,6 @@
 # Site settings
 title: "WhatAKitty"
-email: 104xuqiang@163.com
+email: "104xuqiang@163.com"
 description: "一路走一路看"
 baseurl: ""
 url: "http://xuqiang.me"
@@ -9,7 +9,7 @@ title_image: "/assets/gravatar.jpg"
 google_analytics:
 disqus_account:
 duoshuo_account: whatakitty
-github_repository: https://github.com/WhatAKitty/
+github_repository: "https://github.com/WhatAKitty/"
 addthis_id:
 post_limit: 5
 
@@ -19,8 +19,8 @@ github_username: WhatAKitty
 sina_username: 本人dddd牛仔
 linkedin_link:
 google_plus_link:
-stackoverflow_link: http://stackoverflow.com/users/3165573/whitewater
-sina_weibo_link: http://weibo.com/2694057441/profile?topnav=1&wvr=6
+stackoverflow_link: "http://stackoverflow.com/users/3165573/whitewater"
+sina_weibo_link: "http://weibo.com/2694057441/profile?topnav=1&wvr=6"
 
 # Footer
 footer_left: "Template modified with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/Dear46673688\">Dear君临</a>"
